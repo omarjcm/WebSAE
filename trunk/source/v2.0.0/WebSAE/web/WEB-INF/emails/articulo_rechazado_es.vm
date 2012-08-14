@@ -1,0 +1,10 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Su artículo: "$TITULO_ARTICULO" no ha sido aceptado para nuestro evento: "$NOMBRE_EVENTO".
+
+Le agradecemos su participación y esperamos contar con sus investigaciones para futuras actividades. Si desea revisar la evaluación, dirigirse a la opción de Convocatoria del Evento, en "subir artículo".
+
+Cualquier inquietud que tenga escríbanos a nuestra dirección de correo $EMAIL_EVENTO.
+
+De usted con toda nuestra consideración,
+Comité de Evaluación.

@@ -1,0 +1,23 @@
+\begin{thebibliography}{99}
+	
+	\bibitem{merode.1999}
+	Monique Snoeck, Guido Dedene, Maurice Verhelst, Anne-Marie Depuydt, 
+	\textit{Object-Oriented Enterprise Modelling with MERODE},
+	Leuven University Press,
+	Leuven/Louvain, Belgium, 1999.
+	
+	\bibitem{karina.2007}
+	Karina Chong,
+	\textit{Elaboraci\'on de un Portal Web que maneje y administre las suscripciones al portal, la organizaci\'on de eventos y las publicaciones para grupos de investigaci\'on, utilizando MERODE (Object Oriented Business Modelling) como metodolog\'ia de an\'alisis},
+	Guayaquil, Ecuador, Septiembre 2007.
+	
+	\bibitem{salomon.2008}
+	Salom\'on Herrera,
+	\textit{Implementaci\'on de los M\'odulos de Convocatoria de Art\'iculos y Evaluaci\'on de Art\'iculos para el Portal Web del Componente 8 del Proyecto VLIR-ESPOL utilizando MERODE como Metodolog\'ia de An\'alisis y J2EE como Arquitectura de Dise\~no},
+	Guayaquil, Ecuador, Enero 2008.
+	
+	\bibitem{victoria}
+	Mar\'ia Victoria Di Libero,
+	\textit{Arquitectura Dirigida por Modelos},
+	Buenos Aires, Argentina.
+\end{thebibliography}

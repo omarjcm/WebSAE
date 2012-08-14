@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<project name="AppGiiS" company="GiiS" manager="" phase="Fase I: An&#xE1;lisis" project-start="20080530T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases>
+    <phase name="Fase I: An&#xE1;lisis"/>
+  </phases>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Jornada laboral" description="Un d&#xED;a de trabajo predeterminado"/>
+      <day-type id="1" name="Jornada de descanso" description="Un d&#xED;a de descanso predeterminado"/>
+      <day-type id="2" name="Usar base" description="Usar d&#xED;a del calendario base"/>
+    </day-types>
+    <calendar id="1" name="Predeterminado">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="0" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0900" end="1300"/>
+          <interval start="1400" end="1900"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20080614" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Levantamiento de Requerimientos" note="" work="1161000" start="20080530T000000Z" end="20080627T104500Z" work-start="20080530T090000Z" percent-complete="90" priority="5" type="normal" scheduling="fixed-work">
+      <task id="2" name="Definici&#xF3;n de Requerimientos C" note="" work="889200" start="20080530T000000Z" end="20080614T163000Z" work-start="20080530T090000Z" percent-complete="50" priority="5" type="normal" scheduling="fixed-work"/>
+      <task id="3" name="Definici&#xF3;n de Requerimientos D" note="" work="271800" start="20080623T000000Z" end="20080627T104500Z" work-start="20080623T090000Z" percent-complete="0" priority="5" type="normal" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20080623T000000Z"/>
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="4" name="Entrega de Requerimientos C - Borrador final" note="" work="0" start="20080614T163000Z" end="20080614T163000Z" work-start="20080614T163000Z" percent-complete="100" priority="5" type="milestone" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="5" name="Entrega de Requerimientos D - Documento final" note="" work="0" start="20080627T104500Z" end="20080627T104500Z" work-start="20080627T104500Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="6" name="An&#xE1;lisis del t&#xED;tulo de la tesis" note="" work="325800" start="20080616T000000Z" end="20080627T093000Z" work-start="20080616T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="7" name="Investigaci&#xF3;n del tema a proponer" note="" work="325800" start="20080616T000000Z" end="20080627T093000Z" work-start="20080616T090000Z" percent-complete="20" priority="3" type="normal" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20080616T000000Z"/>
+      </task>
+      <task id="8" name="Entrega del tema propuesto - Preliminar" note="" work="0" start="20080620T000000Z" end="20080620T000000Z" work-start="20080620T090000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20080620T000000Z"/>
+      </task>
+      <task id="9" name="Tema propuesto - Final" note="" work="0" start="20080627T000000Z" end="20080627T000000Z" work-start="20080627T090000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20080627T000000Z"/>
+      </task>
+    </task>
+    <task id="10" name="Estimaci&#xF3;n de la planificaci&#xF3;n" note="" work="331200" start="20080616T000000Z" end="20080701T095140Z" work-start="20080616T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="11" name="Planificaci&#xF3;n de tareas pr&#xF3;ximas" note="" work="143100" start="20080616T000000Z" end="20080620T124500Z" work-start="20080616T090000Z" percent-complete="30" priority="4" type="normal" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20080616T000000Z"/>
+      </task>
+      <task id="12" name="An&#xE1;lisis con puntos de funci&#xF3;n y COCOMO" note="" work="129600" start="20080627T104500Z" end="20080630T104500Z" work-start="20080627T104500Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="3" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="13" name="Estimaci&#xF3;n de tiempos para planificaci&#xF3;n del proyecto" note="" work="58500" start="20080630T104500Z" end="20080701T095140Z" work-start="20080630T104500Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="12" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="14" name="Propuesta de tesis" note="" work="0" start="20080701T095140Z" end="20080701T095140Z" work-start="20080701T095140Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="9" type="FS"/>
+          <predecessor id="1" predecessor-id="13" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+  </tasks>
+  <resource-groups default_group="1">
+    <group id="1" name="GiiS" admin-name="Ing. Ver&#xF3;nica Mac&#xED;as" admin-phone="" admin-email=""/>
+  </resource-groups>
+  <resources>
+    <resource group="1" id="1" name="Rafael Rivadeneira" short-name="RR" type="1" units="0" email="rafariva@gmail.com" note="" std-rate="0"/>
+    <resource group="1" id="2" name="Guillermo Pizarro" short-name="GP" type="1" units="0" email="omarjcm@gmail.com" note="" std-rate="0"/>
+  </resources>
+  <allocations>
+    <allocation task-id="13" resource-id="1" units="100"/>
+    <allocation task-id="12" resource-id="1" units="100"/>
+    <allocation task-id="14" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="8" resource-id="1" units="100"/>
+    <allocation task-id="4" resource-id="1" units="100"/>
+    <allocation task-id="11" resource-id="1" units="100"/>
+    <allocation task-id="3" resource-id="1" units="100"/>
+    <allocation task-id="2" resource-id="1" units="100"/>
+    <allocation task-id="1" resource-id="1" units="100"/>
+    <allocation task-id="13" resource-id="2" units="100"/>
+    <allocation task-id="12" resource-id="2" units="100"/>
+    <allocation task-id="14" resource-id="2" units="100"/>
+    <allocation task-id="9" resource-id="2" units="100"/>
+    <allocation task-id="5" resource-id="2" units="100"/>
+    <allocation task-id="8" resource-id="2" units="100"/>
+    <allocation task-id="7" resource-id="2" units="100"/>
+    <allocation task-id="4" resource-id="2" units="100"/>
+    <allocation task-id="3" resource-id="2" units="100"/>
+    <allocation task-id="2" resource-id="2" units="100"/>
+    <allocation task-id="1" resource-id="2" units="100"/>
+  </allocations>
+</project>

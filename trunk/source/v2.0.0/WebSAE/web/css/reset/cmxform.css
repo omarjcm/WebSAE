@@ -1,0 +1,31 @@
+/**********************************
+
+Name: cmxform Styles
+Author: Nick Rigby 
+
+***********************************/
+
+form.cmxform {
+	width: 400px;
+    font-size: 1.1em;
+    font: normal 70% "Lucida Grande", Helvetica, Verdana, Arial;
+	color: #333;
+}
+	
+form.cmxform legend { padding-left: 0; font: normal 150% "Lucida Grande", Helvetica, Verdana, Arial;}
+	
+form.cmxform legend,
+form.cmxform label { color: #333; }
+
+form.cmxform fieldset {
+	border: none;
+	border-top: 1px solid #C9DCA6;
+	background: url(../imagenes/cmxform-fieldset.gif) left bottom repeat-x;
+}
+	
+form.cmxform fieldset fieldset { background: none; }
+	
+form.cmxform fieldset li {
+	padding: 5px 10px 7px;
+	background: url(../imagenes/cmxform-divider.gif) left bottom repeat-x;
+}

@@ -1,0 +1,12 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Gracias por participar como evaluador en nuestro evento: "$NOMBRE_EVENTO".
+
+Se le ha asignado la revisión del artículo: "$TITULO_ARTICULO".
+
+Lo invitamos a revisar la información en nuestro Sistema Web.
+
+Cualquier inquietud que tenga escríbanos a nuestra dirección de correo $EMAIL_EVENTO.
+
+Atentamente,
+Administrador del Evento.

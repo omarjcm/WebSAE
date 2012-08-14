@@ -1,0 +1,24 @@
+.foto_cara{
+ width: 120px;
+ height: 150px;
+ margin-left: 20px;
+ float: left;
+
+}
+
+.nombre_conferencista{
+ float: left;
+}
+
+.contenedor_conferencista{
+ width: 500px;
+}
+
+.mini_bio{
+ float: left;
+ width: 300px;
+}
+
+.descripcion_conferencista{
+ float: left;
+}

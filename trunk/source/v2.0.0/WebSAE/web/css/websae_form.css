@@ -1,0 +1,207 @@
+titulo.form-login .clearthefloats {
+    font-size: 10px;
+}
+
+.form-login input[type="text"], input[type="password"] {
+    width: 180px;
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+}
+
+.form-login select {
+    font-size: 40px;
+}
+
+.form-login label {
+    float: left;
+    text-align:right;
+    width: 200px;
+    padding: 0 10px 5px 20px;
+    margin: 5px 0 5px 0;
+}
+
+.form-login label.genero {
+    text-align:left;
+    width:auto;
+    margin-left: -20px;
+}
+
+.form-login input[type="radio"] {
+    width:auto;
+    text-align:left;
+}
+
+.form-login textarea {
+    margin-bottom: 5px;
+}
+
+.form-suscripcion label, .form-recuperacion label, .form-modificacion label {
+    float: left;
+    width: 200px;
+    text-align:right;
+    padding: 1px 0 1px 0;
+    margin: 2px 10px 2px 0;
+}
+.form-suscripcion label.genero {
+    float: left;
+    width: auto;
+    text-align:left;
+    padding: 1px 0 1px 0;
+    margin: 2px 10px 2px 0;
+}
+.tundra .dijitTextBox, .form-suscripcion textarea {
+    width: 150px;
+    float:left;
+    padding: 1px 0 1px 0;
+    margin: 2px 0 2px 0;
+}
+.tundra .dijitButton {
+    float: left;
+    margin-left: 5px;
+}
+.tundra .dijitButton.submit {
+    margin: 15px 0 20px 210px;
+}
+.tundra .dijitComboBox {
+    float: left;
+    width: 150px;
+    padding: 1px 0 1px 0;
+    margin: 2px 0 2px 0;
+}
+.lblasterisco {
+    float:left;
+    margin: 0 0 0 10px;
+	font: 10px verdana;
+	color: #FF0000;
+}
+.titulo {
+    margin: 10px;
+    padding: 5px;
+    border: 1px silver dotted;
+    font-weight: bolder;
+}
+
+#div_form {
+    margin:0 auto 0 auto;
+}
+#div_form .titulo {
+    text-align: center;
+}
+#div_form .titulo-principal {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+    border: 1px silver dotted;
+    text-transform: uppercase;
+}
+#div_form .subtitulo-principal {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: blue;
+    border: 1px silver dotted;
+    text-transform: uppercase;
+}
+#div_form .sub_titulo {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: blue;
+    border: 1px silver dotted;
+    cursor: pointer;
+}
+#div_form .sub_titulo:hover {
+    background-color: #f6f6f6;
+    border-top-width: 1px;
+    border-right-width-value: 1px;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-bottom-width: 1px;
+    border-left-width-value: 1px;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-top-style: solid;
+    border-right-style-value: solid;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-bottom-style: solid;
+    border-left-style-value: solid;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-top-color: #e8edf4;
+    border-right-color-value: #e8edf4;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-bottom-color: #e8edf4;
+    border-left-color-value: #e8edf4;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    color: #333333;
+}
+#div_form label,
+#div_form label.info, #div_form label.info_dato,
+#div_form label.info_modificar, #div_form label.info_organizador, label.info_modificar_corto{
+	float: left;
+    text-align:right;
+	width: 240px;
+    padding: 2px 0 2px 0;
+    margin: 5px 5px 5px 0;
+}
+#div_form label.info_organizador {
+	width: 120px;
+}
+#div_form label.info {
+    font-weight: bold;
+}
+#div_form label.info_modificar {
+    width: 170px;
+}
+#div_form label.info_modificar_corto {
+    width: 110px;
+}
+#div_form label.info_dato {
+    text-align: left;
+}
+#div_form label.info_dato_check {
+    width: auto;
+    text-align: left;
+    margin: 5px 10px 5px 0;
+}
+.tundra .dijitTextBox.div_form {
+    width: 150px;
+    float:left;
+    padding: 2px 0 2px 0;
+    margin: 5px 5px 5px 0px;
+}
+.tundra .dijitCheckBox.div_form {
+    float:left;
+    padding: 2px 0 2px 0;
+    margin: 5px 5px 5px 0px;
+}
+.botones_administracion{
+    margin: 0pt auto;
+    width: 250px;
+}
+
+.txt_textarea{
+    width: 145px;
+    text-align: left;
+    float: left;
+}
+
+.info_centrada{
+    text-align: center;
+    font: 14px verdana;
+}
+
+.titulo-principal {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+    border: 1px silver dotted;
+    text-transform: uppercase;
+}

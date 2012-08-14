@@ -1,0 +1,217 @@
+var lang="";
+
+function asignar_idioma(_lang){
+    lang = _lang.toLowerCase();
+}
+
+function parseIdioma(texto){
+    var index;
+
+    if (lang == "en" || lang == "en#" )
+        index=1;
+    else if (lang == "pt" || lang == "pt#" )
+        index=2;
+    else 
+        index=0;
+
+
+    lang_pendiente = new Array("PENDIENTE","PENDENT","PENDENTE");
+    lang_vigente = new Array("VIGENTE","ACTIVE","VIGENTE");
+    lang_realizado = new Array("REALIZADO","DONE","FEITO");
+    lang_eliminado = new Array("ELIMINADO","DELETED","ELIMINADO");
+
+    lang_nombre = new Array("Nombre","Name","Nome");
+    lang_apellido = new Array("Apellido","LastName","Sobrenome");
+    lang_estado = new Array("Estado","Status","Estado");
+    lang_accion = new Array("Acción","Action","Ação");
+    lang_fecha_inicio = new Array("Fecha Inicio","Start Date","Data Início");
+    lang_fecha_fin = new Array("Fecha Fin","End Date","Data Final");
+    lang_seleccionar = new Array("Seleccionar","Select","Selecione");
+    lang_correo = new Array("Correo","Email","E-Mail");
+    lang_dirigido = new Array("Dirigido","Addressed","E-Mail");
+    
+    lang_modificar = new Array("Modificar","Modify","Editar");
+    lang_ver = new Array("Ver","View","Visualizar");
+    lang_precio = new Array("Precio","Price","Preço");
+    lang_cantidad = new Array("Cantidad","Amount","Valor");
+    lang_abreviatura = new Array("Abreviatura","Abbreviation","Abreviatura");
+    lang_dia = new Array("Día","Day","Dia");
+    lang_hora_inicio = new Array("Hora Inicio","Start Time","Start Time");
+    lang_hora_fin = new Array("Hora Fin","End Time","End Time");
+    lang_conferencista = new Array("Conferencista","Speaker","Palestrante");
+    lang_categoria = new Array("Categoria","Category","Categoria");
+    lang_subcategoria = new Array("SubCategoria","SubCategory","SubCategoria");
+    lang_descuento = new Array("Descuento","Discount","Desconto");
+    lang_actividad = new Array("Actividad","Activity","Atividade");
+    lang_expositor = new Array("Expositor","Expositor","Expositor");
+    lang_organizador = new Array("Organizador","Organizer","Organizador");
+    lang_opciones = new Array("Opciones","Options","Opciones");
+    lang_tipo = new Array("Tipo","Type","Tipo");
+    lang_ver = new Array("Ver","View","Visualizar");
+    lang_tema = new Array("Tema","Topic","Tópico");
+    lang_fechas = new Array("Fechas","Dates","Datas");
+    lang_telefono = new Array("Teléfono","Phone","Teléfono");
+    lang_paginaweb = new Array("Página Web","WebPage","Página Web");
+    lang_descripcion = new Array("Descripción","Description","Descripción");
+    lang_objetivo = new Array("Objetivo","Objetive","Objetivo");
+    lang_del = new Array("Del","From","Del");
+    lang_al = new Array("al","to","al");
+    lang_lugar = new Array("Lugar","Place","Lugar");
+    lang_fecha = new Array("Fecha","Date","Fecha");
+    lang_subeventos = new Array("SubEventos","SubEvents","SubEventos");
+    lang_gratis = new Array("Gratis","Free","Livre");
+    lang_detalles = new Array("Detalles","Details","Detalhes");
+    lang_registrar = new Array("Registrar","Register","Registrar");
+    lang_evento = new Array("Evento","Event","Evento");
+    lang_agenda = new Array("Agenda","Scheduler","Agenda");
+    lang_conferencistas = new Array("Conferencistas","Speakers","Lectureres");
+    lang_materiales = new Array("Materiales","Materials","Materiales");
+    lang_actividades_extras = new Array("Actividades Extras","Extra Activities","Atividades Extras");
+    lang_orden = new Array("Orden","Sort","Orden");
+    lang_seccion = new Array("Sección","Section","Section");
+    lang_oculto = new Array("Oculto","Hidden","Oculto");
+    lang_preguntas = new Array("Preguntas","Questions","Preguntas");
+    lang_respuestas = new Array("Respuestas","Answers","Repuestas");
+    lang_alternativas = new Array("Alternativas","Alternatives","Alternativas");
+    lang_pregunta = new Array("Pregunta","Question","Pregunta");
+    lang_respuesta = new Array("Respuesta","Answer","Repuesta");
+    lang_alternativa = new Array("Alternativa","Alternative","Alternativa");
+    lang_tipo_pregunta = new Array("Tipo de Pregunta","Question Type","Tipo Pregunta");
+    lang_autor = new Array("Autor","Author","Autor");
+    lang_autor_es = new Array("Autor(es)","Author(s)","Autor(es)");
+    lang_articulo = new Array("Artículo","Article","Articulo");
+    lang_archivo = new Array("Archivo","File","Archivo");
+    lang_titulo = new Array("Título","Title","Titulo");
+    lang_administrador = new Array("Administrador","Administrator","Administrador");
+    lang_evaluador = new Array("Evaluador","Evaluator","Avaliador");
+    lang_miembro = new Array("Miembro del Comité","Committee Member","Membro do Comitê");
+
+    lang_error_traduccion = new Array("No puede traducir un mismo idioma.","Can not translate the same language.","Não é possível traduzir a mesma língua.");
+    lang_menor_edad = new Array("La Fecha de Nacimiento debe corresponder a un mayor de edad.","Date of Birth must be consistent with an adult.","Data de Nascimento deve ser coerente com um adulto.");
+    lang_intervalo_fecha = new Array("Debe ingresar las todas fechas o ninguna.","You must enter all the dates or none.","Você deve inserir todas as datas ou nenhuma.");
+    lang_fecha_inicial_final = new Array("La Fecha Inicial no puede ser mayor a la Fecha Final.","The Start date can not be greater than End Date.","A data de início não pode ser maior que Data Final.");
+    lang_fecha_inicial_actual = new Array("La Fecha de Inicio no puede ser menor a la Fecha Actual.","The Start Date can not be less than the Current Date.","A Data de Início não pode ser inferior a Data Atual.");
+    lang_fecha_inicio_inicial = new Array("La Fecha de Inicio no puede ser menor que la Fecha Inicial del Evento.","The Start Date can not be less than the Start Date of the Event.","A Data de Início não pode ser inferior do que a Data de Início do Evento.");
+    lang_fecha_fin_final = new Array("La Fecha Final no puede ser mayor que la Fecha Final del Evento.","The End Date can not be greater than the End Date of the Event.","Data de término não pode ser maior do que a Data de Término do Evento.");
+    lang_fecha_fin_actual = new Array("La Fecha Final no puede ser mayor que la Fecha Actual.","The End Date can not be greater than the Current Date.","Data de término não pode ser maior do que a Data Atual.");
+    lang_fecha_actual_resumen = new Array("La Fecha Actual no puede ser mayor a la Fecha del Resumen.","Today's Date can not be greater than the Summary's Date.","Data Actual não poderá ser superior a Síntese Data.");
+    lang_fecha_resumen_presentacion = new Array("La Fecha del Resumen no puede ser mayor a la Fecha de Presentación.","The Summary Date can not be greater than the Presentation Date.","Data de Síntese não poderá ser superior a Apresentação Data.");
+    lang_fecha_presentacion_evaluacion = new Array("La Fecha de Presentación no puede ser mayor a la Fecha de Evaluación.","The Presentation Date can not be greater than the Evaluation Date.","Data de Apresentação não poderá ser superior a Avaliação Data.");
+    lang_fecha_evaluacion_notificacion = new Array("La Fecha de Evaluación no puede ser mayor a la Fecha de Notificación.","Evaluation Date can not be greater than the Notification Date.","Data de Avaliação não poderá ser superior a Notificação Data.");
+    lang_fecha_notificacion_correccion = new Array("La Fecha de Notificación no puede ser mayor a la Fecha de Corrección.","Notification Date can not be greater than Correction Date.","Data de notificação não pode ser superior a Correção Data.");
+    lang_fecha_correccion_evento = new Array("La Fecha de Corrección no puede ser mayor a la Fecha Inicial del Evento.","Correction Date could not be higher than the Initial Date of the Event.","Correção Data não pode ser superior a Data Inicial do Evento.");
+    lang_consultar_precios_descuentos = new Array("Consultar la opción de Precios y Descuentos para ver las fechas de registro.","See the prices and discounts options for the registration dates.","Veja os preços e descontos opções para o registo datas.");
+    lang_pasos_registrarse = new Array("Pasos a seguir para registrarse:","Steps to register:","Passos para registrar:");
+    lang_registro_inactivo = new Array("El Registro a este Evento No se Encuentra Activo.","The Registration to this Event is Not Active.","A matrícula para este Evento não está Activa.");
+
+    lang_fecha_evento = new Array("Período del Evento","Event Period","Evento Período");
+    lang_rango_agenda = new Array("La Fecha a Ingresar debe estar dentro del Período del Evento.","Date must be within the period of the event.","A data deve estar dentro do período do evento.");
+    lang_conferencista_agregado = new Array("Agregado con Éxito el/la Conferencista: ","Successfully added the Speaker: ","Adicionado com sucesso o Palestrante: ");
+    lang_no_match = new Array("Ninguna coincidencia encontrada.","No match found.","Nenhum resultado encontrado.");
+    lang_evento_gratis = new Array("Este Evento es gratis, puede registrarse sin costo alguno.","This event is free, you can register without cost","Este evento é livre, você pode registrar sem custo.");
+    lang_imagen_cargada = new Array("Imagen Cargada con Éxito","Image Successfully Uploaded","Imagem Carregado com Sucesso");
+    lang_campo_obligatorio = new Array("Este campo es obligatorio.","This Field is Required.","Este campo é obrigatório.");
+    lang_subir_archivo = new Array("Debe subir un archivo.","You must upload a file.","Você deve selecionar um arquivo.");
+    lang_seleccionar_tema = new Array("Seleccione almenos un tema.","Select at least one file.","Selecione o arquivo pelo menos uma.");
+    // = new Array("","","");
+
+
+    switch (texto.toLowerCase()){
+        case "pendiente": return lang_pendiente[index]; break;
+        case "vigente": return lang_vigente[index]; break;
+        case "realizado": return lang_realizado[index]; break;
+        case "eliminado": return lang_eliminado[index]; break;
+        case "nombre": return lang_nombre[index]; break;
+        case "estado": return lang_estado[index]; break;
+        case "accion": return lang_accion[index]; break;
+        case "fecha inicio": return lang_fecha_inicio[index]; break;
+        case "fecha fin": return lang_fecha_fin[index]; break;
+        case "modificar": return lang_modificar[index]; break;
+        case "ver": return lang_ver[index]; break;
+        case "error traduccion": return lang_error_traduccion[index]; break;
+        case "precio": return lang_precio[index]; break;
+        case "cantidad": return lang_cantidad[index]; break;
+        case "abreviatura": return lang_abreviatura[index]; break;
+        case "menor edad": return lang_menor_edad[index]; break;
+        case "seleccionar": return lang_seleccionar[index]; break;
+        case "correo": return lang_correo[index]; break;
+        case "apellido": return lang_apellido[index]; break;
+        case "intervalo fecha": return lang_intervalo_fecha[index]; break;
+        case "fecha inicial final": return lang_fecha_inicial_final[index]; break;
+        case "fecha inicial actual": return lang_fecha_inicial_actual[index]; break;
+        case "fecha inicio inicial": return lang_fecha_inicio_inicial[index]; break;
+        case "fecha fin actual": return lang_fecha_fin_actual[index]; break;
+        case "fecha fin final": return lang_fecha_fin_final[index]; break;
+        case "dia": return lang_dia[index]; break;
+        case "fecha evento": return lang_fecha_evento[index]; break;
+        case "rango agenda": return lang_rango_agenda[index]; break;
+        case "hora inicio": return lang_hora_inicio[index]; break;
+        case "hora fin": return lang_hora_fin[index]; break;
+        case "expositor": return lang_expositor[index]; break;
+        case "actividad": return lang_actividad[index]; break;
+        case "conferencista": return lang_conferencista[index]; break;
+        case "conferencista agregado": return lang_conferencista_agregado[index]; break;
+        case "no match": return lang_no_match[index]; break;
+        case "categoria": return lang_categoria[index]; break;
+        case "subcategoria": return lang_subcategoria[index]; break;
+        case "descuento": return lang_descuento[index]; break;
+        case "opciones": return lang_opciones[index]; break;
+        case "tipo": return lang_tipo[index]; break;
+        case "ver": return lang_ver[index]; break;
+        case "tema": return lang_tema[index]; break;
+        case "fecha actual resumen": return lang_fecha_actual_resumen[index]; break;
+        case "fecha resumen presentacion": return lang_fecha_resumen_presentacion[index]; break;
+        case "fecha presentacion evaluacion": return lang_fecha_presentacion_evaluacion[index]; break;
+        case "fecha evaluacion notificacion": return lang_fecha_evaluacion_notificacion[index]; break;
+        case "fecha notificacion correccion": return lang_fecha_notificacion_correccion[index]; break;
+        case "fecha correccion evento": return lang_fecha_correccion_evento[index]; break;
+        case "fechas": return lang_fechas[index]; break;
+        case "telefono": return lang_telefono[index]; break;
+        case "paginaweb": return lang_paginaweb[index]; break;
+        case "descripcion": return lang_descripcion[index]; break;
+        case "organizador": return lang_organizador[index]; break;
+        case "dirigido": return lang_dirigido[index]; break;
+        case "objetivo": return lang_objetivo[index]; break;
+        case "del": return lang_del[index]; break;
+        case "al": return lang_al[index]; break;
+        case "lugar": return lang_lugar[index]; break;
+        case "fecha": return lang_fecha[index]; break;
+        case "consultar precios descuentos": return lang_consultar_precios_descuentos[index]; break;
+        case "pasos registrarse": return lang_pasos_registrarse[index]; break;
+        case "registro inactivo": return lang_registro_inactivo[index]; break;
+        case "subeventos": return lang_subeventos[index];break;
+        case "gratis": return lang_gratis[index];break;
+        case "detalles": return lang_detalles[index];break;
+        case "registrar": return lang_registrar[index];break;
+        case "evento": return lang_evento[index];break;
+        case "agenda": return lang_agenda[index];break;
+        case "conferencistas": return lang_conferencistas[index];break;
+        case "materiales": return lang_materiales[index];break;
+        case "evento gratis": return lang_evento_gratis[index];break;
+        case "imagen cargada": return lang_imagen_cargada[index];break;
+        case "campo obligatorio": return lang_campo_obligatorio[index];break;
+        case "actividades extras": return lang_actividades_extras[index];break;
+        case "orden": return lang_orden[index];break;
+        case "seccion": return lang_seccion[index];break;
+        case "oculto": return lang_oculto[index];break;
+        case "preguntas": return lang_preguntas[index];break;
+        case "respuestas": return lang_respuestas[index];break;
+        case "alternativas": return lang_alternativas[index];break;
+        case "pregunta": return lang_pregunta[index];break;
+        case "respuesta": return lang_respuesta[index];break;
+        case "alternativa": return lang_alternativa[index];break;
+        case "tipo pregunta": return lang_tipo_pregunta[index];break;
+        case "subir archivo": return lang_subir_archivo[index];break;
+        case "seleccionar tema": return lang_seleccionar_tema[index];break;
+        case "autor": return lang_autor[index];break;
+        case "articulo": return lang_articulo[index];break;
+        case "archivo": return lang_archivo[index];break;
+        case "titulo": return lang_titulo[index];break;
+        case "administrador": return lang_administrador[index];break;
+        case "evaluador": return lang_evaluador[index];break;
+        case "miembro": return lang_miembro[index];break;
+        case "autor(es)": return lang_autor_es[index];break;
+    // case "": return lang_[index];break;
+    }
+    return texto;
+}

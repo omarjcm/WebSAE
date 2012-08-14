@@ -1,0 +1,10 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Seu artigo: "$TITULO_ARTICULO" não foi pre-aprovado para o nosso evento: "$NOMBRE_EVENTO", pelos seguintes motivos: $MOTIVO_RECHAZO.
+
+Agradecemos a sua participação e aguardamos a sua pesquisa para atividades futuras.
+
+Quaisquer preocupações que têm com a gente no nosso e-mail $EMAIL_EVENTO.
+
+Atenciosamente,
+Comissão de Avaliação.

@@ -1,0 +1,336 @@
+/******************************************************************/
+/*Inicio de Estilo de Tablas*/
+/******************************************************************/
+
+table.busqueda
+{
+	background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 350px;
+ 	border: 1px solid #D7E5F2; 
+ 	border-collapse: collapse;
+ 	margin: 0px;
+}
+
+table.login
+{
+	background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 300px;
+ 	border: 2px solid #D7E5F2; 
+ 	/*border-collapse: collapse;*/
+ 	/*margin: 0px;*/
+}
+
+table.consultaroles
+{
+	background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 200px;
+ 	text-align: center;
+ 	border: 1px solid #D7E5F2; 
+ 	border-collapse: collapse;
+ 	margin: 0px;
+}
+
+table.usuario
+{
+	background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 525px;
+ 	border: 1px solid #D7E5F2; 
+ 	border-collapse: collapse;
+ 	/*margin: 0px;*/
+ 	margin: auto;/*a�adido*/
+}
+
+table.correspondencia
+{
+	background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 525px;
+ 	border: 1px solid #D7E5F2; 
+ 	border-collapse: collapse;
+ 	margin: 0px;
+}
+
+table.correspondenciapersonal
+{
+	margin-top: 20px;
+	width: 600px;
+ 	
+}
+/*Cambiar las tablas sin estilo por class="standar"*/
+table.standar
+{
+    background-color: #F9FBFD; 
+ 	color: #000000; 
+ 	width: 400px;
+ 	border: 1px solid #D7E5F2; 
+ 	border-collapse: collapse; 
+}
+
+td
+{
+	border: 1px solid #D7E5F2; 
+ 	/*padding-left: 4px; */
+
+}
+
+tr
+{
+	margin:0px;
+	padding: 0px;
+	border: 0px ;
+	vertical-align: middle;
+}
+
+th{
+    background-color: #CC0000;
+    border: 1px solid #CC0000; 
+    color: white;
+   	padding-left: 4px; 
+    vertical-align: middle;
+}
+
+th.thusuario1{
+    background-color: #3b5ade;
+    border: 1px solid #D7E5F2; 
+    color: white;
+    padding-left: 4px;
+    vertical-align: middle;
+    width: 65%;
+}
+
+th.thusuario2{
+    background-color: #3b5ade;
+    border: 1px solid #D7E5F2; 
+    color: white;
+    padding-left: 4px;
+    vertical-align: middle;
+    width: 15%;
+}
+
+th.thadministrador
+{
+    background-color: #fb3939;
+    border: 1px solid #D7E5F2; 
+    color: white;
+   	padding-left: 4px; 
+    vertical-align: middle;
+}
+
+.etiqueta
+{
+	font: 13px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ 	color: #FFFFFF; 
+}
+
+td.titulo
+{
+	padding: 0px; 
+}
+
+.biglabelcell 
+{ 
+ font: 10px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ color: #3670A7; 
+ background-color: transparent;
+  width: 400px;
+ text-align: left;
+}
+
+.labelcell
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ color: #000033; 
+ background-color: transparent; 
+ width: 20%;
+ text-align: left;
+}
+
+.labelcellbold 
+{ 
+ font: bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ color: #000033; 
+ background-color: transparent; 
+ text-align: left;
+} 
+
+.fieldcell3
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #9f9f9f; 
+ color: #000000; 
+ text-align: left; 
+ margin-right: 0px; 
+ padding-right: 0px;
+}
+
+.fieldcell2
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #ede3e3; 
+ color: #000000; 
+ text-align: left; 
+ margin-right: 0px; 
+ padding-right: 0px;
+}
+
+.fieldcell 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #F2F7FB; 
+ color: #000000; 
+ text-align: left; 
+ margin-right: 0px; 
+ padding-right: 0px;
+ width: 200px; 
+}
+
+.buttoncell 
+{ 
+ background-color: #F2F7FB; 
+ color: #000000; 
+ text-align:center; 
+ margin-right: 0px; 
+ padding-right: 0px; 
+}
+
+.xsmalllabelcell 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: transparent; 
+ color: #3670A7; 
+ width: 120px;
+ text-align: left;
+} 
+
+.xsmallfieldcell 
+{ 
+ background-color: #F2F7FB; 
+ color: #000000; 
+ text-align: left; 
+ width: 200px;
+ margin-right: 0px; 
+ padding-right: 0px;
+}
+
+.smalllabelcell 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: transparent; 
+ color: #3670A7; 
+ width: 200px;
+ text-align: left;
+} 
+
+.smallfieldcell 
+{ 
+ background-color: #F2F7FB; 
+ color: #000000; 
+ text-align: left; 
+ width: 150px;
+ margin-right: 0px; 
+ padding-right: 0px;
+}
+
+.fieldcell input 
+{ 
+ /*width: 200px; */
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279; 
+ margin-right: 0px; 
+}
+
+.fieldcell select 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279; 
+}
+
+.fieldcell textarea 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279;
+ width: 200px;
+} 
+
+.smallfieldcell input 
+{ 
+ width: 100px; 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279; 
+}
+
+.xsmallfieldcell input 
+{ 
+ width: 150px; 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279; 
+} 
+
+.smallfieldcell select 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279; 
+}
+
+.button 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ margin-top: 2px; 
+ margin-bottom: 2px; 
+}
+
+.labelcellbold textarea 
+{ 
+ font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ background-color: #D7E5F2; 
+ color: #102132; 
+ border: 1px solid #284279;
+ width: 200px;
+} 
+/******************************************************************/
+/*Fin de Estilo de Tablas*/
+/******************************************************************/
+div.medidas_left{
+	margin: 8px 0 8px 35px;	
+}
+div.texto_tema{
+	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ 	color: #FFFFFF;
+ 	text-align: left;
+ 	font-style: italic;
+}
+.text_white_evaluador{
+	font: 10pt "Tahoma";	
+	color: red;	
+	line-height:10px;
+	font-weight: bold;
+	text-align: left;
+	text-transform:uppercase;
+}
+
+
+.td_height_8{
+     height: 8px;
+}
+
+.tabla_align_center{
+    text-align: center;
+ }

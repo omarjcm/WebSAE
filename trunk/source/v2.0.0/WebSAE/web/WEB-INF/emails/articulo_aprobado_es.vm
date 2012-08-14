@@ -1,0 +1,11 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Su artículo: "$TITULO_ARTICULO" ha sido aprobado para nuestro evento: "$NOMBRE_EVENTO".
+
+Le agradecemos su participación, por favor revise los comentarios del revisor en nuestro portal y envíenos la corrección de su trabajo hasta el $FECHA_MAX_CORRECCION.
+Si desea revisar la evaluación, dirigirse a la opción de Convocatoria del Evento, en "subir artículo".
+
+Cualquier inquietud que tenga escríbanos a nuestra dirección de correo $EMAIL_EVENTO.
+
+De usted con toda nuestra consideración,
+Comité de Evaluación.

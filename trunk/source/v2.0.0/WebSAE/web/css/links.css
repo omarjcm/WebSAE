@@ -1,0 +1,362 @@
+/* CSS Document */
+.text_blue_tittle_event{
+    font: 8pt "Tahoma";
+    color: #003063;
+    line-height:13px;
+    font-weight: bold;
+    text-align: left
+}
+A.text_blue_tittle_event:link {
+    text-decoration:underline
+}
+A.text_blue_tittle_event:visited {
+    text-decoration:underline
+}
+A.text_blue_tittle_event:hover {
+    color: #EF4900;
+    text-decoration:underline
+}
+A.text_blue_tittle_event:active {
+    color: #333333;
+    text-decoration:underline
+}
+.text_blue_link_paper{
+    font: 6.5pt "Tahoma";
+    color: #003063;
+    line-height:5px;
+    font-weight: bold;
+    text-align: left
+}
+A.text_blue_link_paper:link {
+    color: #003063;
+}
+A.text_blue_link_paper:visited {
+    color: #003063;
+}
+A.text_blue_link_paper:hover {
+    color: #EF4900;
+}
+A.text_blue_link_paper:active {
+    color: #333333;
+}
+.direct_menu{
+    font: 8pt "Tahoma";
+    font-weight:bold;
+    text-decoration:none;
+}
+A.direct_menu:link {
+    color: #333333;
+    text-decoration:none;
+}
+A.direct_menu:visited {
+    color: #333333;
+    text-decoration:none;
+}
+A.direct_menu:hover {
+    text-decoration:underline;
+    color: #333333;
+}
+A.direct_menu:active {
+    text-decoration:underline;
+    color: #333333;
+}
+.text_white_menu_link{
+    font: 7pt "Tahoma";
+    font-weight:bold;
+    text-indent: 0.7em;
+    color: #FFFFFF;
+}
+A.text_white_menu_link:link {
+    color: #FFFFFF;
+}
+A.text_white_menu_link:visited {
+    color: #FFFFFF;
+}
+A.text_white_menu_link:hover {
+    color: #333333;
+}
+A.text_white_menu_link:active {
+    color: #333333;
+}
+.text_white_login_link{
+    font: 8.5pt "Tahoma";
+    font-weight:bold;
+    color: black;
+    text-decoration:none;
+}
+A.text_white_login_link:link {
+    text-decoration:none;
+}
+A.text_white_login_link:visited {
+    text-decoration:none;
+}
+A.text_white_login_link:hover {
+    font: 8.5pt "Tahoma";
+    font-weight:bold;
+    color: #333333;
+    text-decoration:underline;
+}
+A.text_white_login_link:active {
+    text-decoration:underline;
+}
+.texto_plomo_menu_fondo_naranja{
+    font: 9pt "Tahoma";
+    text-indent: 1em;
+    color:#333333;
+    font-weight: bold;
+    text-align: left
+}
+A.texto_plomo_menu_fondo_naranja:link {
+    text-decoration:underline
+}
+A.texto_plomo_menu_fondo_naranja:visited {
+    text-decoration:underline
+}
+A.texto_plomo_menu_fondo_naranja:hover {
+    color: #003063;
+    text-decoration:none
+}
+A.texto_plomo_menu_fondo_naranja:active {
+    color: #003063;
+    text-decoration:none
+}
+.text_blue_detalle_event{
+    font: 7pt "Tahoma";
+    color: #003063;
+    line-height:10px;
+    font-weight: bold;
+    text-align: left
+}
+A.text_blue_detalle_event:link {
+    text-decoration:underline
+}
+A.text_blue_detalle_event:visited {
+    text-decoration:underline
+}
+A.text_blue_detalle_event:hover {
+    color: #EF4900;
+    text-decoration:underline
+}
+A.text_blue_detalle_event:active {
+    color: #333333;
+    text-decoration:underline
+}
+
+
+/*-------------------------------*/
+/* 		  	  KARINA	 	     */
+/*-------------------------------*/
+.link_inicio{
+    font: 8.5pt "Tahoma";
+    font-weight:bold;
+    text-decoration:none;
+    color:#990000;
+}
+A.link_inicio:link {
+    color: #333333;
+    text-decoration:none;
+}
+A.link_inicio:visited {
+    color: #333333;
+    text-decoration:none;
+}
+A.link_inicio:hover {
+    text-decoration:underline;
+    color: #333333;
+}
+A.link_inicio:active {
+    text-decoration:underline;
+    color: #333333;
+}
+
+.text_white_login_under_link{
+    font: 8pt "Tahoma";
+    font-weight:bold;
+    text-indent: 0.7em;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+A.text_white_login_under_link:link {
+    text-decoration:none;
+}
+A.text_white_login_under_link:visited {
+    text-decoration:none;
+}
+A.text_white_login_under_link:hover {
+    text-decoration:underline;
+}
+A.text_white_login_under_link:active {
+    text-decoration:underline;
+}
+
+/*-------------------------------*/
+/*   BOTONES DE ADMINISTRACION 	 */
+/*-------------------------------*/
+.iconos{
+    font: 8.5pt "Tahoma";
+    color: #003063;
+    font-weight: bold;
+    text-align: left;
+}
+.iconos img{
+    width:48px;
+    height:48px;
+    border:0px;
+}
+A.iconos:link {
+    text-decoration:none;
+}
+A.iconos:visited {
+    text-decoration:none;
+}
+A.iconos:hover {
+    color: #EF4900;
+    font-size:9pt;
+    text-decoration:underline;
+}
+A.iconos:active {
+    color: #333333;
+    text-decoration:underline;
+}
+
+
+.text_blue_detalle_event_pequenio{
+    font: 6.5pt "Tahoma";
+    color: #003063;
+    line-height:10px;
+    font-weight: bold;
+    text-align: left;
+}
+A.text_blue_detalle_event_pequenio:link {
+    text-decoration:underline
+}
+A.text_blue_detalle_event_pequenio:visited {
+    text-decoration:underline
+}
+A.text_blue_detalle_event_pequenio:hover {
+    color: #EF4900;
+    text-decoration:underline
+}
+A.text_blue_detalle_event_pequenio:active {
+    color: #333333;
+    text-decoration:underline
+}
+
+.text_blue_administracion{
+    font: 8pt "Tahoma";
+    color: #003063;
+    line-height:13px;
+    font-weight: bold;
+    text-align: left;
+}
+A.text_blue_administracion:link {
+    text-decoration:none;
+}
+A.text_blue_administracion:visited {
+    text-decoration:none;
+}
+A.text_blue_administracion:hover {
+    color: #CC0000;
+    text-decoration:underline
+}
+
+.text_gray_administracion{
+    font: 8pt "Tahoma";
+    color: gray;
+    line-height:13px;
+    font-weight: bold;
+    text-align: left;
+}
+A.text_gray_administracion:link {
+    text-decoration:none;
+}
+A.text_gray_administracion:visited {
+    text-decoration:none;
+}
+A.text_gray_administracion:hover {
+    color: #CC0000;
+    text-decoration:underline;
+}
+
+.text_black_uppercase_paper_link{
+    font: 7pt "Tahoma";
+    color: #333333;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing: 0.05em;
+}
+A.text_black_uppercase_paper_link:link {
+    text-decoration:none;
+}
+A.text_black_uppercase_paper_link:visited {
+    text-decoration:none;
+}
+A.text_black_uppercase_paper_link:hover {
+    color: #EF4900;
+    text-decoration:underline
+}
+A.text_black_uppercase_paper_link:active {
+    color: #333333;
+    text-decoration:underline
+}
+.text_blue_detalle_evaluacion{
+    font: 8pt "Tahoma";
+    color: #003063;
+    line-height:10px;
+    font-weight: bold;
+    text-align: left;
+}
+A.text_blue_detalle_evaluacion:link {
+    text-decoration:underline
+}
+A.text_blue_detalle_evaluacion:visited {
+    text-decoration:underline
+}
+A.text_blue_detalle_evaluacion:hover {
+    color: gray;
+    text-decoration:underline
+}
+A.text_blue_detalle_evaluacion:active {
+    color: #333333;
+    text-decoration:underline
+}
+.text_red_detalle_evaluacion{
+    font: 8pt "Tahoma";
+    color: #CC0000;
+    line-height:10px;
+    font-weight: bold;
+    text-align: left;
+}
+A.text_red_detalle_evaluacion:link {
+    text-decoration:underline
+}
+A.text_red_detalle_evaluacion:visited {
+    text-decoration:underline
+}
+A.text_red_detalle_evaluacion:hover {
+    color: gray;
+    text-decoration:underline
+}
+A.text_red_detalle_evaluacion:active {
+    color: #333333;
+    text-decoration:underline
+}
+
+.link_tabla{
+    --font: 6.5pt "Tahoma";
+    --color: #0030AA;
+    text-decoration:underline;
+    --background-color:#EEEFFF;
+    --line-height:5px;
+    font-weight: bold;
+    --text-align: left
+}
+
+.link_tabla:hover{
+    --font: 6.5pt "Tahoma";
+    --color: #AAAAAA;
+    background-color:#BBEFFF;
+    --text-decoration:none;
+    --line-height:5px;
+    --text-align: left
+}

@@ -1,0 +1,8 @@
+Estimad$GENERO $NOMBRE $APELLIDO
+
+Su solicitud de registro para el evento/subevento "$NOMBRE_EVENTO" no ha sido aprobado.
+
+Por favor ingrese nuevamente a la sección de 'Registro' del evento para solicitar um registro diferente.
+
+Atentamente,
+$REMITENTE

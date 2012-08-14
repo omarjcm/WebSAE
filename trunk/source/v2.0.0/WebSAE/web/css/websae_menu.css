@@ -1,0 +1,64 @@
+/* 
+    Document   : websae_menu
+    Created on : 17/04/2009, 06:42:05 PM
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.yui-b p {
+    margin: 0 0 .5em 0;
+    color: #999;
+}
+
+div.yui-b p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+div.yui-b p em {
+    color: #000;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    padding: .25em .5em;
+    background-color: #ccc;
+}
+
+#menu_usuario, #menu_admin, #menu_evento {
+    position: static;
+}
+
+/*
+    For IE 6: trigger "haslayout" for the anchor elements in the root Menu by
+    setting the "zoom" property to 1.  This ensures that the selected state of
+    MenuItems doesn't get dropped when the user mouses off of the text node of
+    the anchor element that represents a MenuItem's text label.
+*/
+
+#menu_usuario .yuimenuitemlabel, #menu_admin .yuimenuitemlabel, #menu_evento .yuimenuitemlabel {
+    _zoom: 1;
+}
+
+#menu_usuario .yuimenu .yuimenuitemlabel, #menu_admin .yuimenu .yuimenuitemlabel, #menu_evento .yuimenu .yuimenuitemlabel {
+    _zoom: normal;
+}
+
+#opcion-menu { margin: 0 auto 0 auto; }
+#opcion-menu-item { margin: -5px 10px -10px 10px; float:left; text-align:center; }
+#opcion-menu-item a:link, #opcion-menu-item a:visited, #opcion-menu-item a:active { font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: black; }
+#opcion-menu-item a:hover { font-family:Arial, Helvetica, sans-serif; color: #EA750B; text-decoration:none; }
+#opcion-menu-item a.imagen:link, #opcion-menu-item a.imagen:visited, #opcion-menu-item a.imagen:active { font-family:Arial, Helvetica, sans-serif;  font-size: 12px;  color: #FFFFFF; }
+
+#modulos { width: 510px; margin: 0 auto 0 auto; }
+#modulos-item { padding: 10px; margin: 10px; width:128px; float:left; text-align:center; }
+#modulos-item a:link, #modulos-item a:visited, #modulos-item a:active { font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: black; }
+#modulos-item a:hover { font-family:Arial, Helvetica, sans-serif; color: #EA750B; text-decoration:none; }
+#modulos-item a.imagen:link, #modulos-item a.imagen:visited, #modulos-item a.imagen:active { font-family:Arial, Helvetica, sans-serif;  font-size: 12px;  color: #FFFFFF; }

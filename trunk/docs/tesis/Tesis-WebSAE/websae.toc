@@ -1,0 +1,46 @@
+\select@language {spanish}
+\contentsline {chapter}{\MakeUppercase {AGRADECIMIENTO}}{II}{section*.1}
+\contentsline {chapter}{\MakeUppercase {DEDICATORIA}}{III}{section*.2}
+\contentsline {chapter}{\MakeUppercase {TRIBUNAL DE GRADO}}{IV}{section*.3}
+\contentsline {chapter}{\MakeUppercase {DECLARACI\'ON EXPRESA}}{V}{section*.4}
+\contentsline {chapter}{\MakeUppercase {Resumen}}{VI}{section*.5}
+\contentsline {chapter}{\MakeUppercase {\'Indice general}}{VIII}{section*.6}
+\contentsline {chapter}{\MakeUppercase {\'{I}ndice de figuras}}{X}{section*.7}
+\contentsline {chapter}{\MakeUppercase {Indice de Tablas}}{XI}{section*.8}
+\vspace *{\baselineskip }
+\contentsline {chapter}{{\MakeUppercase {Antecedentes}}}{1}{chapter.1}
+\contentsline {section}{\textit {Antecedentes}}{1}{section*.10}
+\contentsline {section}{\textit {Justificaci\'on}}{1}{section*.11}
+\contentsline {section}{\textit {Objetivos}}{2}{section*.12}
+\contentsline {chapter}{{\MakeUppercase {Fundamentos Te\'oricos}}}{3}{chapter.2}
+\contentsline {section}{\textit {Descripci\'on General de MDA y MERODE}}{3}{section*.14}
+\contentsline {section}{\textit {Tecnolog\'ias Open Source}}{3}{section*.15}
+\contentsline {subsection}{Uso de la arquitectura J2EE.}{4}{section*.16}
+\contentsline {subsection}{Librer\'ias en el Servidor: JSTL, JSON y Velocity.}{4}{section*.17}
+\contentsline {subsection}{Librer\'ias en el Cliente: Dojo y YUI.}{4}{section*.18}
+\contentsline {subsection}{Base de Datos: MySQL y HSQLDB.}{4}{section*.19}
+\contentsline {subsection}{Uso de la herramienta CASE: StarUML.}{4}{section*.20}
+\contentsline {chapter}{{\MakeUppercase {An\'alisis del Sistema}}}{5}{chapter.3}
+\contentsline {section}{\textit {Requerimientos Funcionales}}{5}{section*.22}
+\contentsline {section}{\textit {Requerimientos No Funcionales}}{7}{section*.23}
+\contentsline {section}{\textit {Especificaci\'on del Modelo Independiente de la Plataforma (PIM) usando t\'ecnicas de MERODE}}{9}{section*.24}
+\contentsline {subsection}{El gr\'afico de la dependencia de existencia (EDG)}{10}{section*.25}
+\contentsline {subsection}{La tabla de eventos de objetos (OET)}{22}{section*.26}
+\contentsline {subsection}{M\'aquina de estados finitos relevantes (FSM)}{22}{section*.27}
+\contentsline {section}{\textit {Definici\'on del Modelo espec\'ifico de la plataforma (PSM)}}{22}{section*.28}
+\contentsline {section}{\textit {Definici\'on de Roles en los M\'odulos}}{33}{section*.29}
+\contentsline {chapter}{{\MakeUppercase {Dise\~no del Sistema}}}{35}{chapter.4}
+\contentsline {section}{\textit {Dise\~no de la Arquitectura del Sistema}}{35}{section*.31}
+\contentsline {subsection}{Dise\~no Arquitect\'onico}{37}{section*.32}
+\contentsline {subsection}{M\'odulos del Sistema}{39}{section*.33}
+\contentsline {subsection}{Arquitectura basada en patrones de dise\~no}{39}{section*.34}
+\contentsline {section}{\textit {Diagrama de Clases del Sistema}}{39}{section*.35}
+\contentsline {section}{\textit {Modelo l\'ogico de la Base de Datos}}{39}{section*.36}
+\contentsline {chapter}{{\MakeUppercase {Implementaci\'on y Pruebas}}}{40}{chapter.5}
+\contentsline {section}{\textit {Capas del Sistema y comunicaci\'on entre capas}}{40}{section*.38}
+\contentsline {subsection}{Implementaci\'on basada en el an\'alisis con MERODE y MDA}{41}{section*.39}
+\contentsline {section}{\textit {Plan de Pruebas}}{41}{section*.40}
+\contentsline {section}{\textit {Resultados de las Pruebas y M\'etricas tomadas}}{41}{section*.41}
+\contentsline {chapter}{CONCLUSIONES}{42}{chapter*.42}
+\contentsline {section}{\textit {Comentarios generales}}{42}{section*.43}
+\contentsline {section}{\textit {{\MakeUppercase {Referencias}}}}{44}{section*.44}

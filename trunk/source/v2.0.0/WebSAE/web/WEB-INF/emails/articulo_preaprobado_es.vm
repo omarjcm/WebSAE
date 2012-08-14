@@ -1,0 +1,10 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Su artículo: "$TITULO_ARTICULO" ha sido pre-aprobado para nuestro evento: "$NOMBRE_EVENTO".
+
+Le agradecemos su participación, por favor reenvie su artículo completo y corregido hasta el $FECHA_MAX_RESUMEN.
+
+Cualquier inquietud que tenga escríbanos a nuestra dirección de correo $EMAIL_EVENTO.
+
+De usted con toda nuestra consideración,
+Comité de Evaluación.

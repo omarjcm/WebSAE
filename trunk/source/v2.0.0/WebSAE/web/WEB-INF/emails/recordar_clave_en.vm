@@ -1,0 +1,9 @@
+Dear $nombre $apellido,
+
+Has request to remember your password
+
+    Your password is: $clave
+
+Regards,
+
+$remitente

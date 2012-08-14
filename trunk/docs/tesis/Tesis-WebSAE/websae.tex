@@ -1,0 +1,240 @@
+%%
+%% This is file `mitsample.tex',
+%% generated with the docstrip utility.
+%
+% The original source files were:
+%
+% ubcthesis.dtx  (with options: `mitsampletex')
+%% 
+%% This file was generated from the ubcthesis package.
+%% --------------------------------------------------------------
+%% 
+%% Copyright (C) 2001
+%% Michael McNeil Forbes
+%% mforbes@alum.mit.edu
+%% 
+%% This file may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.2
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% LaTeX Project Public License for more details.
+%% 
+%% This program consists of the files ubcthesis.dtx, ubcthesis.ins, and
+%% the sample figures fig.eps and fig.fig.
+%% 
+%% This file may be modified and used as a base for your thesis without
+%% including the licence agreement as long as the content (i.e. textual
+%% body) of the file is completely rewritten. You must, however, change
+%% the name of the file.
+%% 
+%% This file may only be distributed together with a copy of this
+%% program. You may, however, distribute this program without generated
+%% files such as this one.
+%% 
+
+
+% This Sample thesis requires \LaTeX2e
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesFile{mitsample.tex}[2006/09/02 v1.42 ^^J
+ Massachusetts Institute of Technology Sample Thesis]
+
+\documentclass[msc,12pt,upper,appendixpart,appendixpage,oneside,logo,bold,norunningheaders,tocupper,tocitalic,a4paper]{mitthesis}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel} 
+\usepackage{ucs}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{ulem}
+\usepackage{longtable}
+%
+% To compile issue the following commands:
+% latex mitsample
+% bibtex mitsample
+% latex mitsample
+% latex mitsample
+% latex mitsample
+%
+% To view use xdvi (on unix systems):
+% xdvi mitsample.dvi
+%
+% To make a postscript file, use dvips:
+% dvips -o mitsample.ps mitsample.dvi
+%
+% To view the postscript file, use ghostview or gv (on unix systems):
+% gv mitsample.ps
+%
+%************************************************
+% Optional packages.
+%
+% The use of these packages is optional: they are standard now and
+% should be installed on your system, but if they are not, you might
+% have to comment out the appropriate lines to get this file to
+% compile.
+%
+%******** natbib ********************************
+% This is a very nice package for bibliographies.  It includes options
+% for sorting and compressing bibliographic entries.
+\usepackage[numbers,sort&compress]{natbib}
+
+%******** graphics and graphicx ******************************
+% This allows you to include encapsulated postscript files.  If you
+% don't have this, comment the \includegraphics{} line following the
+% comment "%includegraphics" later in this file.
+\usepackage[dvips]{graphicx}
+\DeclareGraphicsRule{.emf}{bmp}{}{}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg} %solo para PDFLaTeX
+
+%******** lscape ******************************
+% This allows you to include landscape layout pages by using the
+% |landscape| environment. Note that this output might only be valid
+% after converting to a postscript or pdf file.
+\usepackage{lscape}
+
+%******** psfrag ******************************
+% This allows you to replace text in postscript pictures with formated
+% latex text.  This allows you to use math in graph labels
+% etc. Uncomment the psfrag lines following the "%psfrag" comment
+% later in this file if you don't have this package.  The replacements
+% will only be visible in the final postscript file: they will be
+% listed in the .dvi file but not performed.
+\usepackage{psfrag}
+
+%******** afterpage ***************************
+% This package allows you to issue commands at the end of the current
+% page.  A good use for this is to use the command
+% \afterpage{\clearpage} right after a figure.  This will cause the
+% figure to be inserted on the page following the current one (or on
+% the current page if it will fit) but will not break the page in the
+% middle.
+\usepackage{afterpage}
+
+%******** hyperref *****************************
+% This adds hyperlinks to your document: with the right viewers (later
+% versions of xdvi, acrobat with pdftex, latex2html etc.) this will
+% make your equation, figure, citation references etc. hyperlinks so
+% that you can click on them.  Also, your table of contents will be
+% able to take you to the appropriate sections.  In the viewers that
+% support this, the links often appear with an underscore.  This
+% underscore will not appear in printed versions.
+%
+% Note: if you do not use the hypertex option, then the dvips driver
+% may be loaded by default.  This will cause the entries in the list
+% of figures and list of tables to be on a single line because dvips
+% does not deal with hyperlinks on broken lines properly.
+%
+% Also, the hyperref package should be loaded last as it modified the
+% commands in many other pagckages.
+\usepackage[hypertex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{url}
+% If you would like to compile this sample thesis without the
+% hyperref package, then you will need to comment out the previous
+% \usepackage command and uncomment the following command which will
+% put the URL's in a typewriter font but not link them.
+%\newcommand\href[2]{\texttt{#2}}
+%\renewcommand*\familydefault{\sfdefault}
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+% These commands are optional.  The defaults are shown.
+\institution{Escuela Superior Polit\'ecnica del Litoral}
+\institutionaddress{Guayaquil, Ecuador}
+\program{Maestr\'ia en Sistemas de Informaci\'on Gerencial}
+\gracias{A Dios, \\a mis padres y \\a mis profesores}
+\dedicado{Con cari\~no,\\ para mis padres}
+% You can issue as many of these as you have...
+%\previousdegree{B.Sc., The University of British Columbia, 1999}
+%\previousdegree{M.Sc., The University of British Columbia, 2001}
+
+% You can override the option setting here.
+ \degreetitle{Ingeniero en Computaci\'on especializaci\'on Sistemas Multimedia}
+
+% These commands are required.
+\title{``IMPLEMENTACI\'ON DEL PORTAL WEB DE ADMINISTRACI\'ON DE EVENTOS PARA GRUPOS DE INVESTIGACI\'ON''}
+\author{Guillermo Omar Pizarro V\'asquez \\ Rafael Eduardo Rivadeneira Campodonico}
+\copyrightyear{2009}
+\submitdate{\today}
+
+% These commands are required by MIT.
+\advisor{Ing. M\'onica Villavicencio}
+\departmentchair{Ing. Jorge Aragundi}
+\mtribunalp{M.Sc. }
+\mtribunals{M.Sc. }
+% One might want to override the format of the section and chapter3
+% numbers.  This shows you how to do it.  Note that
+\renewcommand\thepart         {\Roman{part}}
+\renewcommand\thechapter      {\Roman{chapter}}
+\renewcommand\thesection      {}
+\renewcommand\thesubsection   {}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\renewcommand\theparagraph    {\thesubsubsection.\arabic{paragraph}}
+\renewcommand\thesubparagraph {\theparagraph.\arabic{subparagraph}}
+
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{0pt}
+
+% Here is the start of the document.
+\begin{document}
+
+% Unlike the UBC thesis, page numbering for MIT theses should start
+% at 1 and continue.  Thus, there is no \frontmatter command issued
+% here as there was for the UBC thesis.
+\maketitle
+\frontmatter
+\agradecimiento
+\dedicatoria
+\tribunal
+\authorizationform
+
+\include{resumen}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\addtocontents{toc}{\vspace*{\baselineskip}}
+\newpage
+
+% Any other unusual sections should come here between the
+% acknowledgements and the main body.
+\mainmatter
+% Suppress the running headers for this page only.
+\thispagestyle{plain}
+
+\fancypagestyle{plain}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}}
+\setlength{\parskip}{\baselineskip}
+ 
+% Here we provide a short optional argument to \chapter[]{}.  This
+% optional argument will appear in the table of contents.  For long
+% titles, one should use this to give a single-line entry to the
+% table of contents.
+
+\include{capitulo_01}
+\include{capitulo_02}
+\include{capitulo_03}
+\include{capitulo_04}
+\include{capitulo_05}
+\include{conclusion}
+\include{anexos}
+
+% This file is setup to use a bibtex file sample.bib and uses the
+% plain style.  Note, the bibliography could come after the appendices.
+\bibliographystyle{unsrt}
+\bibliography{websae}
+
+
+% Indices come here.
+
+\end{document}
+\endinput
+%%
+%% End of file `mitsample.tex'.

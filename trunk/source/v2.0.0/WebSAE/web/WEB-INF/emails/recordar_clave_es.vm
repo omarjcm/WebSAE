@@ -1,0 +1,9 @@
+Estimad$genero $nombre $apellido,
+
+Ha pedido recordar su contraseña
+
+    Su contraseña es: $clave
+
+Atentamente,
+
+$remitente

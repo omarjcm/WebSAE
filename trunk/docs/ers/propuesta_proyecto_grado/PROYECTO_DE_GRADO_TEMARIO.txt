@@ -1,0 +1,69 @@
+INDICE GENERAL
+
+RESUMEN
+INDICE GENERAL
+ABREVIATURAS
+INDICE DE FIGURAS
+INDICE DE TABLAS
+
+cAPÍTULO 1
+
+1. Antecedentes
+
+  1.1. Antecedentes
+  1.2. Justificación
+  1.3. Objetivos
+  
+CAPÍTULO 2
+  
+2. FUNDAMENTOS TEÓRICOS
+
+  2.1. Descripción General de MDA y MERODE
+  2.2. Tecnologías Open Source
+    2.2.1. Uso de la arquitectura J2EE.
+    2.2.2. Librerías en el Servidor: JSTL, JSON y velocity
+    2.2.3. Librerías en el Cliente: Dojo y YUI.
+    2.2.4. Base de Datos: MySQL y HSQLDB.
+    2.2.5. Uso de la herramienta CASE: StarUML.
+      
+CAPÍTULO 3
+
+3. ANÁLISIS DEL SISTEMA
+
+  3.1. Requerimientos funcionales
+  3.2. Requerimientos no funcionales
+  3.3. Especificación del Modelo Independiente de la Plataforma (PIM) usando técnicas de MERODE
+    3.1. El gráfico de la dependencia de existencia (EDG)
+    3.2. La tabla de eventos de objetos (OET)
+    3.3. Máquina de estados finitos relevantes (FSM)
+  3.4. Definición del Modelo específico de la plataforma (PSM)
+  3.5. Definición de roles en los módulos
+  
+CAPÍTULO 4
+
+4. DISEÑO DEL SISTEMA
+
+  4.1. Diseño de la Arquitectura del Sistema
+    4.1.1. Diseño Arquitectónico
+    4.1.2. Módulos del Sistema
+    4.1.2. Arquitectura basada en patrones de diseño
+  4.2. Diagrama de Clases del Sistema
+  4.3. Modelo lógico de la Base de Datos
+
+CAPÍTULO 5
+
+5. IMPLEMENTACIÓN Y PRUEBAS
+
+  5.1. Capas del Sistema y comunicación entre capas
+    5.1.1. Implementación basada en el análisis con MERODE y MDA
+  5.2. Plan de Pruebas
+  5.3. Resultados de las Pruebas y Métricas tomadas
+  
+  
+CONCLUSIONES Y RECOMENDACIONES
+
+ANEXOS
+
+BIBLIOGRAFÍA
+
+

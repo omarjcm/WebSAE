@@ -1,0 +1,37 @@
+#div_login_azul {
+	position:absolute;
+	top: 2px;
+	left: 581px;
+	width: 196px;
+	text-align:left;
+    border: 1px silver dotted;
+	padding-left:10px;
+	padding-top: 10px;
+	padding-right:10px;
+}
+#titulo {
+    margin: 0 auto 10px auto;
+    font-weight:bolder;
+    font-size: 13px;
+}
+.tundra .dijitTextBox.form_objects {
+    width: 110px;
+    float:left;
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+}
+
+.tundra .dijitButton.form_button {
+    margin-left: 80px;
+}
+
+.form_label {
+    width: 80px;
+    float:left;
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+}
+
+.clearthefloats {
+    clear:both;
+}

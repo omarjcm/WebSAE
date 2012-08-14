@@ -1,0 +1,336 @@
+/* CSS Document */
+body{
+	text-align:left; margin-top: 0px;
+}
+
+form{	
+	font-family: verdana; text-align:left; font-size: 10px; color: #000000;
+	background-color: #F7F7F7;
+	border: 1px solid #EF4900;
+	padding-bottom:20px;
+}
+fieldset{
+	border: 0px solid #000;
+}
+legend{
+	font: bold 140% Arial,sans-serif;
+	color:#990000;
+}
+div.medidas,div.check, div.medidas_registro{
+	margin: 8px 0 8px 8px;
+}
+
+div.medidas_publicacion{
+    margin: 8px 8px 8px 8px;
+}
+
+div.medidas_publicacion2{
+    margin: 8px 8px 8px 8px;
+    text-align: justify;
+}
+
+div.medidas_publicacion3{
+    margin: 8px 8px 8px 8px;
+    text-align: center;
+}
+div.medidas select{
+	font: bold 10px verdana;
+	/*border: 1px solid #EF4900;*/      /*YO LO SAQUE*/
+}
+div.medidas label{
+	float:left;
+	width:130px;
+	line-height:15px;
+}
+div.medidas input {
+	width:140px;
+	font-family: verdana;
+	color: #000000;
+}
+div.medidas_registro select{
+	font: bold 10px verdana;	
+}
+div.medidas_registro label{
+	float:left;
+	width:150px;
+	line-height:15px;	
+	text-align:right;	
+}
+input.boton{
+	font: bold 11px verdana;	
+}
+#text_registro{
+	position:absolute;
+	top:224px;
+	float:left;
+	width:235px;
+	left:25px;
+}
+.mensaje {
+	margin: 8px 8px 8px 8px;	
+	color: red;
+}
+.mensaje_estatico_bold {
+	margin: 8px 8px 8px 8px;
+	font: bold 11px verdana;
+	text-align: center;
+	padding: 1px;
+	color: #FF0000;
+	border-color: #FF0000;
+	border: 1px solid;
+	background-color: #FDDBE1;
+}
+.mensaje_estatico {
+	margin: 8px 8px 8px 8px;
+	font: 11px verdana;
+	text-align: center;
+	padding: 1px;
+	color: #000099;
+	border-color: #000099;
+	border: 1px solid;
+	background-color: #D8E4F1;
+}
+.ancho_maximo_select{
+	font: bold 10px verdana;
+	border: 1px solid #EF4900;
+	width: 230px;	
+}
+.ancho_maximo_select_registro{
+	font: bold 10px verdana;
+	border: 1px solid #EF4900;
+	width: 300px;	
+}
+div.medidas1{
+	margin: 8px 0 8px 8px;
+}
+div.medidas_form{
+	margin: 8px 20px 20px 20px;
+}
+div.medidas1 input{
+	width:120px;
+	font-family: verdana;
+	color: #000000;	
+}
+div.medidas1 label{
+	float:left;
+	width:130px;
+	line-height:15px;
+}
+.lblasterisco {
+	font: 10px verdana;
+	color: #FF0000;
+}
+div.medidasadmin{
+	margin: 8px 0 8px 8px;	
+}
+div.medidasadmin select{
+	font: bold 10px verdana;
+	/*border: 1px solid #EF4900;*/      /*YO LO SAQUE*/
+}
+div.medidasadmin label{
+	float:left;
+	text-align:right;
+	width:200px;
+	line-height:15px;	
+}
+div.medidasadmin span{
+    text-align: center;
+}
+div.medidasadmin input, .ancho_maximo_select_admin{
+	width:200px;
+	font-family: verdana;
+	color: #000000;
+	border: 1px solid #EF4900;	
+}
+
+#respuesta_label{
+	text-align: justify;
+	width:350px;
+}
+div.medidasadmin textarea{
+	width:200px;
+	font-family: verdana;
+	color: #000000;
+	border: 1px solid #EF4900;
+	font-size: 12px;
+}
+.legend{
+	font: bold 140% Arial,sans-serif;
+	color:#990000;
+	text-transform:uppercase;
+	text-align:center;
+}
+.legend_nosotros{
+	font: bold 150% Arial,sans-serif;
+	font-size:24px;
+	color:#990000;
+	text-transform:uppercase;
+	text-align:center;
+}
+.legend_rojo{
+	font: bold 140% Arial,sans-serif;
+	color:#990000;
+    margin: 20px 0 10px 10px;
+}
+.medidascheckbox{
+	margin: 20px 8px 8px 200px;
+}
+
+#tabla_admin tr th{	
+	text-align:center;
+	text-transform:uppercase;
+}
+#tabla_admin tr td{	
+	text-align:center;	
+}
+.td_align_left{
+	text-align:left;	
+}
+#tabla_admin_datos tr th{	
+	text-align:right;
+	text-transform:uppercase;
+}
+#tabla_admin_datos tr td{	
+/*	text-align:left;	*/
+}
+
+div.medidasadminpequenio{
+	margin: 8px 0 8px 8px;
+}
+div.medidasadminpequenio label{
+	float:left;
+	text-align:right;
+	width:200px;
+	line-height:15px;
+}
+div.medidasadminpequenio input{
+	width:40px;
+	font-family: verdana;
+	color: #000000;
+	border: 1px solid #EF4900;
+}
+div.medidasUpload{
+	margin: 8px 0 8px 8px;
+}
+div.medidasUpload label{
+	float:left;
+	text-align:right;
+	width:200px;
+	line-height:15px;
+}
+div.medidasUpload input{
+	width:303px;
+	font-family: verdana;
+	color: #000000;
+	border: 1px solid #EF4900;
+}
+
+div.medidasconsulta{
+	margin: 8px 0 8px 8px;
+}
+div.medidasconsulta label{
+	float:left;
+	text-align:right;
+	width:350px;
+	line-height:15px;
+}
+div.medidasconsulta input{
+	width:200px;
+	font-family: verdana;
+	color: #000000;
+	border: 1px solid #EF4900;
+        text-align: center;
+}
+div.medidasconsulta1 label{
+	float:left;
+	text-align:right;
+	width:350px;
+	line-height:15px;
+}
+div.medidasconsulta1 input{	
+	font-family: verdana;
+	color: #000000;
+	margin-left: 5px;	
+}
+div.mostrar_info {
+	font-family: verdana;	
+	font-size: 10px;	
+	padding-bottom:20px;
+}
+
+#tabla_admin_mostrar tr th{	
+	text-align:center;
+	text-transform:uppercase;
+}
+#tabla_admin_mostrar tr td{	
+	text-align:left;	
+}
+.td_align_left{
+	text-align:left;	
+}
+#tabla_admin_mostrar tr th{	
+	text-align:right;
+	text-transform:uppercase;
+}
+#tabla_admin_mostrar tr td{	
+/*	text-align:left;	*/
+}
+.upper{
+	text-transform:uppercase;
+}
+.titulos_publicacion{
+	font: bold 120% Arial,sans-serif;
+	color:#990000;
+	text-transform:uppercase;
+	text-align:left;
+}
+.medidascertificados{
+	margin: 20px 8px 8px 100px;
+}
+.medidasmenu{
+	text-align:left;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+.nosotros_margen{
+	margin: 20px 50px 20px 50px;
+        text-align: justify;
+}
+.div_nosotros_texto_izquierdo{
+	position:relative;
+	width: 500px;	
+	margin-right: 20px;
+	float:left;
+}
+.div_nosotros_imagen_derecha{
+	position: relative;
+        text-align: center;
+}
+.contactenos_margen{
+	margin: 20px 200px 20px 200px;
+	font: 11pt "Tahoma";		
+	font-weight:bold;
+        text-align: center;
+}
+
+.letra_contactenos_grupo{
+	font: 15pt "Tahoma";	
+	color: #003366;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+
+
+.div_margen_software{
+	margin: 20px 350px 20px 50px;	
+
+}
+.div_margen_telecomunicaciones{
+	margin: 20px 50px 20px 350px;	
+	border: 10px;
+	border-color:#CC6600;
+}
+.div_margen_rob�tica{
+	margin: 20px 350px 20px 50px;
+	background-color:#FFFF33;
+}

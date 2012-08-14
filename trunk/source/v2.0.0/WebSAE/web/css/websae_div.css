@@ -1,0 +1,225 @@
+/* 
+    Document   : websae_div
+    Created on : 16/04/2009, 05:03:04 AM
+    Author     : Guillermo Pizarro
+    Description: Purpose of the stylesheet follows.
+*/
+body { padding: 0px; margin: 0px; background: url(/websae/images/websae_estilo/bg_header.gif) repeat-x left top; }
+#div_body_general { margin-left:auto; margin-right:auto; width:800px; }
+#div_cabecera { margin: 0px 0 10px 0; text-align:right; height:20px; }
+a { color:#000; text-decoration:none; }
+a:hover { color:#1377E8 }
+#div_banner_superior {
+    height:120px; margin-bottom: 25px;
+}
+.div_menu, .div_menu_admin {
+    padding: 10px; width:20%; float:left; z-index:1;
+}
+.div_menu_admin {
+    padding: 0px; width: 160px;
+}
+.div_logo_evento {
+    width:80%; float:left;
+}
+img.div_logo_evento {
+    width:38%;
+    float:right;
+    width:300px;
+    height:130px;
+    margin-right:150px;
+}
+.div_logo {
+    width:77%;
+    float:left;
+}
+img.div_logo {
+    width:300px;
+    margin-top:25px;
+    float:right;
+}
+#div_contenedor {
+    margin: 5px 0 5px 0;
+    background-repeat:no-repeat;
+}
+#div_contenedor_admin {
+    width: 800px;
+    height: 300px;
+    background-repeat:no-repeat;
+}
+#div_eventos, #div_informacion_centro, #div_login,
+#div_informacion_admin, #titulo, #ubicacion {
+    text-align:left;
+    padding:10px;
+}
+#div_eventos, #div_info {
+    width: 170px;
+    float:left;
+}
+#div_informacion_centro,
+#div_formulario, #titulo, #ubicacion,
+#div_informacion_admin {
+    width: 360px;
+    float:left;
+}
+#div_login {
+    width: 200px;
+    float:left;
+    margin-top: 5px;
+}
+#div_login .titulo_login {
+    margin: 0 auto 10px auto;
+    font-weight: bold;
+    text-align: center;
+}
+.clearthefloats {
+    clear:both;
+}
+#div_copyrigth {
+    width:790px;
+    text-align:center;
+    margin: 0 auto;
+    padding: 5px;
+    color:#666;
+    border-bottom: 1px solid #D1D1D1;
+    background:url(/websae/images/websae_estilo/bg_footer.gif) no-repeat;
+}
+.div_centrado {
+    text-align:center;
+    margin-left: 260px;
+}
+#div_info {
+    text-align:left;
+    width: 160px;
+    margin: 5px 5px 5px 0;
+    padding: 0 10px 10px 10px;
+}
+#div_formulario, #titulo, #ubicacion,
+#div_informacion_admin {
+    width: 610px;
+    margin: 5px 0 5px 0;
+}
+#titulo, #ubicacion {
+    width: 606px;
+    padding: 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-top-width: 1px;
+    border-right-width-value: 1px;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-bottom-width: 1px;
+    border-left-width-value: 1px;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-top-style: solid;
+    border-right-style-value: solid;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-bottom-style: solid;
+    border-left-style-value: solid;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-top-color: #e8edf4;
+    border-right-color-value: #e8edf4;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-bottom-color: #e8edf4;
+    border-left-color-value: #e8edf4;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    color: #333333
+}
+.ubicacion {
+    font-weight: bold;
+}
+#ubicacion {
+    text-align: left;
+}
+#div_informacion_admin_principal {
+    text-align:center;
+    margin: 40px 0 40px 0;
+}
+#div_informacion_admin {
+    width: 590px;
+    border: 1px silver dotted;
+}
+.div_menu_admin_titulo {
+    margin: 0 auto 10px auto;
+    height: 27px;
+    line-height: 27px;
+    background-position: 0% 0%;
+    background-image: url(/websae/images/websae_estilo/bg_right_head.gif);
+    background-repeat: repeat-x;
+    text-align: center;
+    font-weight: bold;
+}
+.div_menu_texto {
+    margin: 5px auto 10px auto;
+    height: auto;
+    text-align: center;
+    font: 9pt "Tahoma";
+    font-weight: bold;
+}
+.div_menu_descripcion, .div_menu_texto_descripcion {
+    margin-top:-9px;
+    padding: 4px;
+}
+.div_menu_texto_descripcion {
+    font: 8pt "Tahoma";
+    margin-top: 10px;
+}
+.div_zona {
+    padding: 10px;
+    margin:0 auto 0 auto; width: 500px; height: 325px; border:1px solid silver; overflow: auto;
+}
+.div_pequena_nota {
+    width: 50px;
+    float:left;
+}
+#opciones, #opciones-asignadas {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:410px;
+    color:maroon;
+    font-weight:bold;
+    text-align: center;
+    padding:5px;border:1px solid #CCC;
+    background:#fff;
+    -moz-background-clip: -moz-initial;
+    -moz-background-origin: -moz-initial;
+    -moz-background-inline-policy: -moz-initial;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+}
+#opciones-asignadas {
+    text-align:center;
+    padding: 20px 0 20px 0;
+    width:350px;
+    height: auto;
+    margin:0 auto;
+    border: 1px dotted silver;
+}
+
+.div_registro_evento{
+    border:1px dotted silver;
+    margin: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+.div_registro_subevento{
+    border:1px dotted silver;
+    margin: 10px;
+    padding: 5px;
+}
+
+.label_caption{
+    margin-left:1px;
+    width:500px;
+    text-align:left;
+    float: left;
+}

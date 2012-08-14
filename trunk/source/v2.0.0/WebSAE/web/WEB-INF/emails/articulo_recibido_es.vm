@@ -1,0 +1,8 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Su artículo: "$TITULO_ARTICULO" ha sido recibido exitosamente en nuestro evento "$NOMBRE_EVENTO".
+
+Cualquier inquietud que tenga escríbanos a nuestra dirección de correo: $EMAIL_EVENTO.
+
+Atentamente,
+Administrador del Evento.

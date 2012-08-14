@@ -1,0 +1,280 @@
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<00000000015A04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000015A04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002B104F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002B104F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002B104F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002B104F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002B104F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002B104F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002B104F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002B104F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C304F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C304F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C304F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C304F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C304F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C304F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C304F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C304F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C004F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C004F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C004F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C004F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C004F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C004F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C004F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C004F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002BD04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002BD04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002BD04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002BD04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002BD04F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002BD04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002BD04F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002BD04F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mermaid: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C804F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C804F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C804F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C804F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ entering level 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation        No such file or directory:   
+<0000000002C804F0>                         Operating system error.       Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C804F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ back to level 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C804F0>                         Exception in rescue clause.   Exit
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000002C804F0>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

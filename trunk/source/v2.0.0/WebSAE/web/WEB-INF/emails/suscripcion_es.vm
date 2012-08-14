@@ -1,0 +1,9 @@
+Estimad$GENERO $NOMBRE $APELLIDO,
+
+Usted ha sido registrad$GENERO satisfactoriamente y ahora podrá acceder a todos los servicios que ofrecemos exclusivamente para usuarios registrados. Si tiene alguna pregunta o sugerencia, por favor no dude en escribirnos a $EMAIL_ADMIN
+
+    Su usuario es: $CORREO
+
+Atentamente,
+
+$REMITENTE

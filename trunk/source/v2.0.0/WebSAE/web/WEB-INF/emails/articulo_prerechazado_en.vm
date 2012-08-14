@@ -1,0 +1,10 @@
+Dear $NOMBRE $APELLIDO,
+
+Your paper: "$TITULO_ARTICULO" has not been pre-approved for our event: "$NOMBRE_EVENTO", for the next reason: $MOTIVO_RECHAZO.
+
+We appreciate your participation and we look forward to your research for future activities.
+
+Any concerns you have with us contact us at our e-mail $EMAIL_EVENTO.
+
+Regards,
+Evaluation Committee.

@@ -1,0 +1,8 @@
+Dear $NOMBRE $APELLIDO
+
+Your registration request for the event/subevent "$NOMBRE_EVENTO" has not been approved.
+
+Please re-enter the section 'Registration' of the event and select a diferent request.
+
+Regards,
+$REMITENTE

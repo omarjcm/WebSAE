@@ -1,0 +1,45 @@
+/* 
+    Document   : websae_evento_usuario
+    Created on : 08/09/2009, 06:58:06 PM
+    Author     : Guillermo Pizarro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* Estilos propios para la informacion concerniente al evento en general. */
+.evento_atributo, .evento_valor, .evento_slogan {
+    padding: 5px;
+}
+.evento_slogan {
+    margin-bottom: 10px; font-family: Georgia,'Times New Roman',times,serif;
+}
+.evento_atributo {
+    width:150px; float:left; font-weight:bold; margin-left: 20px;
+}
+.evento_valor {
+    width:380px; float:left;
+}
+.evento_espacio {
+    height: 18px;
+}
+.evento_slogan {
+    width:auto; text-align:center; font-style:oblique;
+}
+.clearfloat {
+    clear: both;
+}
+.evento_titulo {
+    font-weight:bold; margin:20px; padding:5px; margin-bottom:10px;
+}
+/* Estilos propios para la informacion concerniente a los subeventos de un evento en específico. */
+.evento_informacion {
+    height:100%;
+    padding:10px; margin: 10px;
+    margin-bottom: 10px;
+}
+img.imagen_conferencista {
+    width: 80px; height:auto; float:left;
+}
+.info_conferencista {
+    float:left; width:440px; height:auto; padding: 0 10px 10px 20px;
+
+}

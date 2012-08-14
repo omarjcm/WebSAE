@@ -1,0 +1,350 @@
+/* CSS Document 
+Descripción: Este archivo contiene todos los formatos para los textos a utilizarse en el sistema
+*/
+.text_black_7_Tahoma_rigth{
+	font: 7.5pt "Tahoma";	
+	color: #333333;	
+	text-align:right;
+}
+.text_black_8_Tahoma{
+	font: 8pt "Tahoma";	
+	color: #333333;	
+}
+.text_black_uppercase{
+	font: 8pt "Tahoma";	
+	color: #333333;	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+	text-align: left
+}
+.text_black_uppercase_paper{
+	font: 7pt "Tahoma";	
+	color: #333333;	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+}
+.text_black_date_event{
+	font: 7.5pt "Tahoma";	
+	color: #333333;	
+	font-weight:bold;
+	text-align: left
+}
+.text_green{
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	font-style:italic;
+	color: #ADD329;
+}
+.text_white{
+	font: 9pt "Tahoma";	
+	text-indent: 1em;
+	font-weight:bold;
+	text-align:left;
+	color: #FFFFFF;
+}
+.text_white_center{
+	font: 9pt "Tahoma";	
+	/*text-indent: 1em;*/ /*KARINA: esto afecta al centrado de las letras de login*/
+	font-weight:bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_white_menu{
+	font: 9pt "Tahoma";
+	font-weight:bold;
+	text-indent: 0.7em;
+	color: #FFFFFF;
+}
+.text_white_menu_center{
+	font: 9pt "Tahoma";
+	font-weight:bold;
+	text-indent: 0.7em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_white_uppercase{
+	font: 9pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+.text_white_uppercase_center{
+	font: 9pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_orange_uppercase_tittle{
+	font: 8pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	color: #EF4900;
+}
+.fondoAzul{
+	background-color:#003366;
+}
+.fondoGris{
+	background-color: #F7F7F7;
+}
+.fondo_plomo{
+	background-color: #333333;
+}
+.fondo_gris_oscuro{
+	background-color: #CCCCCC;
+}
+.text_White_fondo_Plomo{
+	font: 9pt "Tahoma";	
+	text-indent: 1em;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-align:right;
+	background-color: #333333;
+}
+.text_Green_fondo_Plomo{
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	font-style:italic;
+	color: #ADD329;
+	background-color: #333333;
+}
+.text_white{
+	font: 9pt "Tahoma";	
+	text-indent: 1em;
+	font-weight:bold;
+	padding-left:20px;
+	padding-top:10px;
+	color: #FFFFFF;
+}
+.text_white_center{
+	font: 9pt "Tahoma";	
+	text-indent: 1em;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_white_menu{
+	font: 9pt "Tahoma";
+	font-weight:bold;
+	text-indent: 0.7em;
+	color: #FFFFFF;
+}
+.text_white_menu_center{
+	font: 9pt "Tahoma";
+	font-weight:bold;
+	text-indent: 0.7em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_white_uppercase{
+	font: 9pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+.text_white_uppercase_center{
+	font: 9pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.text_orange_uppercase_tittle{
+	font: 8pt "Tahoma";	
+	padding-left:10px;
+	line-height:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color: #EF4900;
+}
+.text_white_uppercase_login{
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;	
+	color: #FFFFFF;
+}
+.text_black_copyright{
+	font: 7.5pt "Tahoma";	
+	color: #333333;	
+	text-align:right
+}
+.text_black_event{
+	font: 8pt "Tahoma";	
+	line-height:13px;
+	color: #333333;	
+}
+.text_black_relacion_empresas{
+	font: 8pt "Tahoma";
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#000000;	
+}
+.text_black_paper{
+	font: 8pt "Tahoma";	
+	line-height:5px;
+	color: #333333;	
+}
+.text_black_uppercase{
+	font: 8pt "Tahoma";	
+	color: #333333;	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+	text-align:left;
+}
+.text_black_uppercase_paper{
+	font: 6.5pt "Tahoma";	
+	color: #333333;	
+	font-weight:bold;
+	line-height:1px;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+}
+.text_black_date_event{
+	font: 7.5pt "Tahoma";	
+	color: #333333;	
+	line-height: 20px;
+	font-weight:bold;
+	text-align: left
+}
+.fondoAzul{
+	background-color:#003366;
+}
+.fondoGris{
+	background-color: #F7F7F7;
+}
+.fondo_plomo{
+	background-color: #333333;
+}
+.fondo_gris_oscuro{
+	background-color: #CCCCCC;
+}
+.text_White_fondo_Plomo{
+	font: 9pt "Tahoma";	
+	text-indent: 1em;
+	font-weight:bold;
+	line-height: 15px;
+	color: #FFFFFF;
+	text-align:right;
+}
+.text_Green_fondo_Plomo{
+	font: 8pt "Tahoma";	
+	font-weight:bold;
+	color: #ADD329;
+}
+.text_white_uppercase_telecom{
+	position:absolute;
+	left: 195px;
+	top: 150px;
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	text-align:left;
+	color: #FFFFFF;
+}
+.text_white_uppercase_robotica{
+	position:absolute;
+	left: 435px;
+	top: 150px;
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	text-align:left;
+	color: #FFFFFF;
+}
+.text_white_uppercase_software{
+	position:absolute;
+	left: 590px;
+	top: 150px;
+	font: 8.5pt "Tahoma";	
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	text-align:left;
+	color: #FFFFFF;
+}
+.text_blue_detalle_event{
+	font: 8pt "Tahoma";	
+	color: #003063;	
+	line-height:10px;
+	font-weight: bold;	
+}
+
+.text_black_event_detalle{
+	font: 8pt "Tahoma";	
+	text-indent:10px;
+	line-height:13px;
+	color: #333333;	
+}
+
+/*-------------------------------*/
+/*        CONFERENCISTAS         */
+/*-------------------------------*/
+.text_black_conferencista{
+	font: 10pt "Tahoma";	
+	color: #003063;	
+	line-height:10px;
+	font-weight: bold;
+	text-align: left;
+	text-transform:uppercase;
+}
+.text_black_seccion_rojo{
+	font: 10pt "Tahoma";	
+	color: red;	
+	line-height:10px;
+	font-weight: bold;
+	text-align: left;
+}
+.text_black_pregunta{
+	font: 10pt "Tahoma";	
+	color: #000000;	
+	line-height:10px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.text_black_event{
+	font: 8pt "Tahoma";	
+	line-height:13px;
+	color: #333333;	
+}
+
+/*-------------------------------*/
+/*  ALGUNOS TEXTO PARA EVENTO    */
+/*-------------------------------*/
+.text_titulo_secciones{	
+	font-size: 20px;
+	color: #990000;
+	text-transform:uppercase;
+}
+.text_legend{	
+	font-weight:bold;
+	font-size: 15px;
+	color: #003063;
+}
+
+.text_white_login{
+	font: 9pt "Tahoma";		
+	font-weight:bold;
+	text-align:left;
+	color: #FFFFFF;
+}
+.text_precio{
+	font-size:12px;
+}
+.text_white_copyright{
+	font: 7.5pt "Tahoma";	
+	color: #333333;	
+	text-align:right;
+	color: #FFFFFF;
+	font-weight:bold;
+}
